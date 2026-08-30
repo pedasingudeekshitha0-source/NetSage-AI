@@ -1,0 +1,11 @@
+case_id,ai_diagnosis,human_decision,corrected_diagnosis,review_reason,reviewer
+NS-001,Interface issue,Accepted,,Evidence supports interface failure,Student
+NS-002,VLAN issue,Accepted,,VLAN evidence confirms configuration problem,Student
+NS-003,DHCP issue,Edited,Incorrect DHCP gateway configuration,Additional evidence changed diagnosis,Student
+NS-004,ACL issue,Accepted,,ACL deny evidence supports diagnosis,Student
+NS-005,Routing issue,Edited,Missing route to destination network,Route table evidence confirmed missing route,Student
+NS-006,NAT issue,Rejected,No NAT fault confirmed,Insufficient evidence for NAT diagnosis,Student
+NS-007,Trunk issue,Edited,VLAN missing from trunk allowed list,Trunk evidence confirmed VLAN omission,Student
+NS-008,DNS issue,Accepted,,DNS timeout evidence supports diagnosis,Student
+NS-009,IP addressing issue,Edited,Duplicate IP address,Address conflict evidence confirmed duplicate IP,Student
+NS-010,Wireless issue,Rejected,Wireless VLAN mapping requires further verification,Insufficient evidence,Student
