@@ -1,0 +1,28 @@
+NETSAGE AI - SAMPLE NETWORK EVIDENCE
+
+Router Interface:
+GigabitEthernet0/1 is administratively down
+
+VLAN:
+Required VLAN does not exist on the switch
+
+Gateway:
+Default gateway unknown
+
+DHCP:
+DHCP request failed
+
+ACL:
+ACL deny rule blocked the required traffic
+
+Routing:
+Destination unreachable, no route found
+
+NAT:
+NAT translation missing
+
+DNS:
+DNS timeout
+
+IP Addressing:
+Duplicate IP address detected on the network
