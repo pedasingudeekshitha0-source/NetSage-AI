@@ -1,0 +1,110 @@
+NETSAGE AI - VALIDATION TEST CASES
+
+Test Case 1 - Administrative Interface Down
+Evidence:
+GigabitEthernet0/1 is administratively down
+
+Expected Category:
+Interface
+
+Expected Severity:
+HIGH
+
+
+Test Case 2 - Physical Interface Down
+Evidence:
+GigabitEthernet0/2 is down/down
+
+Expected Category:
+Interface
+
+Expected Severity:
+HIGH
+
+
+Test Case 3 - Missing VLAN
+Evidence:
+Required VLAN does not exist on the switch
+
+Expected Category:
+VLAN
+
+Expected Severity:
+HIGH
+
+
+Test Case 4 - Trunk VLAN Issue
+Evidence:
+VLAN 20 is not allowed on the trunk
+
+Expected Category:
+Trunk
+
+Expected Severity:
+HIGH
+
+
+Test Case 5 - Gateway Missing
+Evidence:
+Default gateway unknown
+
+Expected Category:
+Gateway
+
+Expected Severity:
+HIGH
+
+
+Test Case 6 - DHCP Failure
+Evidence:
+DHCP request failed and DHCP server unreachable
+
+Expected Category:
+DHCP
+
+Expected Severity:
+HIGH
+
+
+Test Case 7 - ACL Blocking Traffic
+Evidence:
+ACL deny rule blocked the required traffic
+
+Expected Category:
+ACL
+
+Expected Severity:
+HIGH
+
+
+Test Case 8 - Routing Failure
+Evidence:
+Destination unreachable, no route found
+
+Expected Category:
+Routing
+
+Expected Severity:
+HIGH
+
+
+Test Case 9 - NAT Issue
+Evidence:
+NAT translation missing and internet unreachable
+
+Expected Category:
+NAT
+
+Expected Severity:
+MEDIUM
+
+
+Test Case 10 - IP Conflict
+Evidence:
+Duplicate IP address detected on the network
+
+Expected Category:
+IP Addressing
+
+Expected Severity:
+CRITICAL
