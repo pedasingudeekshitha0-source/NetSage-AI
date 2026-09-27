@@ -1,6 +1,6 @@
 # NetSage AI
 
-## Evidence-Driven Network Troubleshooting Assistant
+## Evidence-Driven Network Troubleshooting Assistant 
 
 NetSage AI is a network troubleshooting assistant designed for Cisco-style lab environments.
 
